@@ -1,0 +1,62 @@
+/* Apply styles to the body for general page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the login page */
+div {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+/* Style for the login heading */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Input fields */
+input {
+    width: calc(100% - 2rem);
+    padding: 10px;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+/* Add hover effect to button */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Focus styles for input fields */
+input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
